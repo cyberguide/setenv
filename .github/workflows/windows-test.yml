@@ -25,5 +25,8 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: dir && cd
-        
+      
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: call .\setenv.bat
      
