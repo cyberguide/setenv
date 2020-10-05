@@ -30,7 +30,7 @@ jobs:
       - name: Run a one-line script
         shell: cmd
         run: dir && cd && call ./setenv.bat
-        if: ${{ runner.os == 'Windows' }} Linux, Windows, or macOS
+        if: ${{ runner.os == 'Windows' }}
 
       # Runs setenv on macOS
       - name: Run a one-line script
