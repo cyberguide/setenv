@@ -35,5 +35,5 @@ jobs:
       # Runs setenv on macOS
       - name: Run a one-line script
         shell: bash
-        run: ls &&  ./setenv.sh
+        run: ls &&  chmod +x ./setenv.sh && ./setenv.sh
         if: ${{ runner.os == 'macOS' || runner.os == 'Linux' }}
